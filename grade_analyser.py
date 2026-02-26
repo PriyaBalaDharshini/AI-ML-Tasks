@@ -58,7 +58,7 @@ def generate_report(classified, passing_avg=70):
 
         else:
             failed += 1
-            
+
         print(f"{name:<10} | Avg: {avg:.2f} | Grade: {grade[-1]} | Status: {status}")
 
     print(f"Total Students : {total_students}")
